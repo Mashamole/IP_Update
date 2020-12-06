@@ -1,5 +1,5 @@
 import os
-# import datetime
+# import datetime # Can use datetime to schedule IP updates for a set time period
 import time
 import pprint
 from bs4 import BeautifulSoup as bsoup
