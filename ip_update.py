@@ -16,7 +16,7 @@ def run():
     googleIpUrl = "https://www.google.com/search?sxsrf=ALeKk00gmMWGmd4e8nw6cy-BQ5-kOML_cw%3A1605983379008&source=hp&ei=kly5X43DOs6z5NoPgJK8-AQ&q=what+is+my+ip&oq=&gs_lcp=CgZwc3ktYWIQAxgAMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnUABYAGCoHGgBcAB4AIABAIgBAJIBAJgBAKoBB2d3cy13aXqwAQo&sclient=psy-ab"
     # other website for finding Public IP
     whatsMyIP = "https://api.myip.com"
-    httpBin = "http://httpbin.org/ip"
+    httpBin = "http://httpbin.org/ip" # Add, when IP is in IPV6 format
     # General Header
     hdr = {'User-Agent': 'Mozilla/5.0'}
 
