@@ -49,6 +49,10 @@ def run():
               
         parsedHtml = bsoup(res.data, 'html.parser')
         dataIP = parsedHtml.find_all("span", style='font-size:20px')
+        print("Backup Site")
+        """
+        Perform IPv6 to IPv4 Conversion -- Use https://www.whatismyip.com/ 
+        """
         print(dataIP[0].text)
 
     except urllib3.exceptions.HTTPError as e:
