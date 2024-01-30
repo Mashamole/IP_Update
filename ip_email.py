@@ -12,8 +12,8 @@ def check_file_exists(filename):
 
 def extract_recent_ips():
     ip_list = []
-    if check_file_exists("test.txt") == True:
-        command = "cat test.txt | tail -n 2"
+    if check_file_exists("IP_Logs.txt") == True:
+        command = "cat IP_Logs.txt | tail -n 2"
         process = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True)
         output, error = process.communicate()
         ip_text = output.decode()
